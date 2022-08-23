@@ -9,12 +9,42 @@
     <body>
         <header class="header-content header">
             <div class="logo-content">
-                <img class="logo-content-img" src="https://cdn.pixabay.com/photo/2016/03/31/20/37/client-1295901_1280.png" alt="">
+                <img class="logo-content-img" src="https://pngtree.com/freepng/simple-black-and-white-three-person-icon_4154815.html" alt="">
                 <div>
                     <span class="emp-text">EMPLOYEE</span><br>
                     <span class="emp-text emp-payroll">PAYROLL</span>
                 </div>
             </div>
         </header>
+        <div class="form-content">
+            <form class="form" action="#" onsubmit="save(event);return false">
+            <div class="form-head">Employee Payroll Form</div>
+            <div class="row-content">
+                <label class="label text" for="name">Name</label>
+                <input class="input" type="text" id="name" name="name" placeholder="Your Name..." required>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="profile">Profile Image</label>
+                <div class="profile-radio-content">
+                    <label>
+                        <input type="radio" id="profile1" name="profile" value="https://pngtree.com/freepng/smiling-business-people_96878.html" required>
+                        <img class="profile" id="image1" src="https://pngtree.com/freepng/smiling-business-people_96878.html" alt="#">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile2" name="profile" value="https://pngtree.com/freepng/smiling-business-people_96878.html" required>
+                        <img class="profile" id="image2" src="https://pngtree.com/freepng/smiling-business-people_96878.html" alt="#">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile3" name="profile" value="https://pngtree.com/freepng/smiling-business-people_96878.html" required>
+                        <img class="profile" id="image3" src="https://pngtree.com/freepng/smiling-business-people_96878.html" alt="#">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile4" name="profile" value="https://pngtree.com/freepng/smiling-business-people_96878.html" required>
+                        <img class="profile" id="image4" src="https://pngtree.com/freepng/smiling-business-people_96878.html" alt="#">
+                    </label>
+                </div>
+            </div>
+         </form>
+        </div>
     </body>
 </html>
