@@ -2,9 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width , initial-scale=1.0">
         <title>Employee Payroll Form</title>
         <link rel="stylesheet" href="/EmployeePayrollApp/payroll_form.css">
+        <script defer type="text/javascript" src="/EmployeePayrollApp/EmployeePayroll.js"></script>
+        <script defer type="text/javascript" src="/EmployeePayrollApp/EmployeePayrollData.js"></script>
     </head>
     <body>
         <header class="header-content header">
@@ -71,8 +74,8 @@
             </div>
             <div class="row-content">
                 <label class="label text" for="salary">Choose Your Salary: </label>
-                <input class="input" type="range" name="salary" min="300000" max="550000" step="100" value="400000">
-                <output class="salary-output text" for="salary">400000</output>
+                <input class="input" type="range" name="salary" min="300000" max="500000" step="100" value="400000">
+                <output class="salary-output" for="salary">400000</output>
             </div>
             <div class="row-content">
                 <label class="text" for="startDate">Start Date</label>
